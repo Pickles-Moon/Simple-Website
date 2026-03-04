@@ -1,0 +1,151 @@
+﻿<html>
+  <head>
+    <title>PRESENSI</title>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      .header {
+        background-color: purple;
+        color: white;
+        padding: 18px;
+      }
+
+      .back {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 20px;
+        font-family: Arial;
+      }
+
+      .arrow {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 1;
+        font-family: Arial;
+        text-decoration: none;
+        color: white;
+      }
+
+      .back {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .C1 {
+        margin-top: 150px;
+        margin-left: 40px; 
+        margin-right: 40px;
+        margin-bottom: 20px;
+        width: 545px;
+        height: 315px;
+      }
+
+      .P1 {
+        font-family: Arial;
+        font-size: 24px;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .P2 {
+        font-family: Arial;
+        font-size: 24px;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .P3 {
+        font-family: Arial;
+        font-size: 24px;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .CL1 {
+        display: block;
+        margin: 20px auto;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        font-family: Arial;
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        transition: 0.4s;
+      }
+
+        .CL1:hover {
+          cursor: pointer;
+          box-shadow: 5px 5px 10px rgba(0,0,0, 0.6);
+        }
+
+      .CL1:active {
+        opacity: 0.5;
+      }
+
+
+      .B1 {
+        font-size: 20px;
+        border: solid;
+        background-color: rgb(7, 57, 172);
+        color: wheat;
+        width: 35px;
+        height: 35px;
+        margin: 10px;
+        border-color: rgb(7, 57, 172);
+        box-shadow: 5px 5px 10px rgba(0,0,0, 0.6);
+        transition: box-shadow 1s;
+
+      }
+
+        .B1:hover {
+          cursor: pointer;
+          box-shadow: 5px 5px 10px rgb(85, 170, 255, 0.8);
+        }
+
+        .B1:active {
+          opacity: 0.8;
+        }
+
+      
+
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="back">
+        <a href="SMANKA.HOME.html" class="arrow">&lt;</a>
+        <a href="SMANKA.HOME.html" class="back">Kembali</a>
+      </div>
+    </div>
+
+    
+
+    <img class="C1" src="image/Courtyard.png" />
+    <br />
+
+    <p class="P1">Presensi Selfie</p>
+    <p class="P2">SMAN 1 KALIWUNGU</p>
+    <p class="P3">Silahkan Cek Lokasi Anda</p>
+    <br />
+    <button class="CL1">Cek Lokasi</button>
+    <br />
+    <button onclick="window.location.href='SMANKA.HOME.html'" class="B1">
+      1
+    </button>
+
+    <button onclick="window.location.href='SMANKA.PRESENSI.html'" class="B1">
+      2
+    </button>
+
+    <button onclick="window.location.href='SMANKA.REKAP.html'" class="B1">
+      3
+    </button>
+  </body>
+</html>

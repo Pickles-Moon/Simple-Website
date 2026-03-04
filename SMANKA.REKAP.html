@@ -1,0 +1,226 @@
+﻿<html>
+<head>
+  <title>REKAP</title>
+    <style>
+
+      .logo1 {
+        width: 128px;
+        height: 128px;
+        margin: 30px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .INPT1 {
+        font-family: Arial;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: white;
+        border: none;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 28px;
+        overflow: visible;
+      }
+
+        .INPT1:focus {
+          border: none;
+          outline: none;
+        }
+
+      .linetop1 {
+        height: 0px;
+        border-width: 2px;
+        border-color: black;
+        margin-bottom: 2px;
+      }
+
+      .linetop2 {
+        height: 0px;
+        border-width: 4px;
+        border-color: black;
+        margin-top: 0px;
+        margin-bottom: 12px;
+      }
+
+      .Bulan1 {
+        font-family: Arial;
+        font-size: 24px;
+        margin: 10px;
+        margin-left: 20px;
+      }
+
+      .PB1 {
+        font-family: Arial;
+        font-size: 24px;
+        border: solid;
+        border-width: 2px;
+        border-color: rgb(206, 211, 216);
+        width: 520px;
+        height: 42px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-left: 20px;
+        transition: box-shadow 0.3s;
+        outline: none;
+      }
+
+        .PB1:hover {
+          cursor: pointer;
+          box-shadow: 5px 5px 10px rgb(30, 30, 30, 0.5);
+        }
+
+        .PB1:active {
+          opacity: 0.5;
+        }
+
+      .PB2 {
+        font-family: Arial;
+        font-size: 24px;
+        border: solid;
+        border-width: 2px;
+        border-color: rgb(206, 211, 216);
+        width: 520px;
+        height: 42px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-left: 20px;
+        transition: box-shadow 0.3s;
+      }
+
+        .PB2:hover {
+          cursor: pointer;
+          box-shadow: 5px 5px 10px rgb(30, 30, 30, 0.5);
+        }
+
+        .PB2:active {
+          opacity: 0.5;
+        }
+
+      .Tahun1 {
+        font-family: Arial;
+        font-size: 24px;
+        margin-top:5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+      }
+
+      .T1 {
+        font-family: Arial;
+        font-size: 24px;
+        border: solid;
+        border-width: 2px;
+        border-color: rgb(13, 110, 253);
+        width: 128px;
+        height: 42px;
+        text-align: left;
+        padding-left: 10px;
+        background-color: rgb(13, 110, 253);
+        border-radius: 8px;
+        color: white;
+        margin-top: 40px;
+        margin-left: 20px;
+        transition: box-shadow 0.3s;
+      }
+
+        .T1:hover {
+          cursor: pointer;
+          box-shadow: 5px 5px 10px rgb(31, 96, 193, 0.5);
+        }
+
+        .T1:active {
+          opacity: 0.8;
+        }
+
+
+      .B1 {
+        font-size: 20px;
+        border: solid;
+        background-color: rgb(7, 57, 172);
+        color: wheat;
+        width: 35px;
+        height: 35px;
+        margin-top: 128px;
+        margin-left: 20px;
+        border-color: rgb(7, 57, 172);
+        box-shadow: 5px 5px 10px rgba(0,0,0, 0.6);
+        transition: box-shadow 1s;
+      }
+
+      .B1:hover {
+          cursor: pointer;
+          box-shadow: 5px 5px 10px rgb(85, 170, 255, 0.8);
+        }
+
+      .B1:active {
+          opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+  <img class="logo1" src="image/smanka.logo.png" />
+  <input class="INPT1" type="text" placeholder="Username">
+  <hr class="linetop1" />
+  <hr class="linetop2" />
+
+  <p class="Bulan1">Bulan</p>
+  <div>
+    <select class="PB1">
+      <option value="" disabled selected hidden>Pilih</option>
+      <option value="Januari">Januari</option>
+      <option value="Februari">Februari</option>
+      <option value="Maret">Maret</option>
+      <option value="April">April</option>
+      <option value="Mei">Mei</option>
+      <option value="Juni">Juni</option>
+      <option value="Juli">Juli</option>
+      <option value="Agustus">Agustus</option>
+      <option value="September">September</option>
+      <option value="Oktober">Oktober</option>
+      <option value="November">November</option>
+      <option value="Desember">Desember</option>
+    </select>
+
+  </div>
+
+  <p class="Tahun1">Tahun</p>
+  <div>
+    <select class="PB2">
+      <option value="" disabled selected hidden>Pilih</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+      <option value="2026">2026</option>
+      <option value="2027">2027</option>
+      <option value="2028">2028</option>
+      <option value="2029">2029</option>
+      <option value="2030">2030</option>
+     </select>
+   </div>
+
+  <br />
+
+  <button class="T1">Tampilkan</button>
+
+  <br />
+
+  <button onclick="window.location.href='SMANKA.HOME.html'" class="B1">
+    1
+  </button>
+
+  <button onclick="window.location.href='SMANKA.PRESENSI.html'" class="B1">
+    2
+  </button>
+
+  <button onclick="window.location.href='SMANKA.REKAP.html'" class="B1">
+    3
+  </button>
+
+</body>
+</html>
